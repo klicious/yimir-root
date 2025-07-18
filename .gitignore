@@ -1,6 +1,8 @@
 # ---  data hygiene  ---
 data/private/**
 artifacts/private/**
+data/private/archive/**
+artifacts/staging/**
 
 # large public assets → handled by LFS or DVC placeholders
 *.zip
