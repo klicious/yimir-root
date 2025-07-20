@@ -108,4 +108,5 @@ The project is in active development with two core capabilities:
 ### Architecture Evolution
 The project demonstrates a clear evolution from a generic HR framework toward a sophisticated AI-powered knowledge management system with automated documentation capabilities.
 
-<!-- README.md last updated from commit: a2451b80c1ba729eafe051da1468aaff647de079 -->
+<!-- Updated sections: [Directory Layout, Core Workflows] based on commits a2451b80c1ba729eafe051da1468aaff647de079..2b2bbe88bd58573f00dd66fb454e583f75fccf4e -->
+<!-- README.md last updated from commit: 2b2bbe88bd58573f00dd66fb454e583f75fccf4e -->
