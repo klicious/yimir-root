@@ -26,8 +26,13 @@ yimir-root/
 │   ├── org.yaml                 # Organization context
 │   └── hr/                      # HR domain example
 │       ├── ontology/            # Data schemas and relationships
+│       │   ├── entities/
+│       │   │   └── User.yaml
+│       │   └── relations.yaml
 │       └── knowledge/           # Actual knowledge data
+│           ├── README.md
 │           └── slices/          # Time-based data partitions
+│               └── 2025-07.yaml
 ├── scripts/
 │   ├── validate_context.py     # Context validation
 │   └── generate_readme.py      # README generation script
@@ -69,6 +74,7 @@ gemini run --prompt "Integrate new_data.yaml into the 'hr' knowledge base" \
 # Validate all context files for schema compliance
 python scripts/validate_context.py
 ```
+
 
 ## Workflows & Guard-rails
 
